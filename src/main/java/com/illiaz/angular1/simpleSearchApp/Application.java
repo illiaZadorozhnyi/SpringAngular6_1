@@ -17,7 +17,7 @@ public class Application {
 
     @Bean
     public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
-        return args -> {
+        return arguments -> {
             System.out.println("Beans provided by Spring Boot: ");
 
             String [] beanNames = ctx.getBeanDefinitionNames();

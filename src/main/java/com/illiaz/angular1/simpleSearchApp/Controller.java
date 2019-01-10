@@ -7,8 +7,8 @@ package com.illiaz.angular1.simpleSearchApp;
 public class Controller {
 
     @RequestMapping("/")
-    public String index() {
-        return "Hello World!\n";
+    public String printTesting() {
+        return "\nHello World!\n";
     }
 
 }
