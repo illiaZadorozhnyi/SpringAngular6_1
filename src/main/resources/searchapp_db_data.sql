@@ -6,3 +6,4 @@ VALUES
 'Spring is mainly targeting reducing boiler plate configuration code in order to get application up and running quickly',
 'asl;kdfjasldkjfldksjflskdjflksdjflksdjflskdjflkjsadfldkjsda;lkjfsdlkjaf;alsdkjf;laksjf;lkj;alskdjf;lkjsa;kdjf;lkj'
 )
+
