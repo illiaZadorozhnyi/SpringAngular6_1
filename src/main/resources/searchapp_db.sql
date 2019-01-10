@@ -2,10 +2,10 @@ DROP DATABASE IF EXISTS searchapp;
 DROP USER IF EXISTS searchapp_user;
 
 CREATE USER searchapp_user IDENTIFIED BY 'dbuser321';
-CREATE DATABASE seachapp CHARACTER SET utf8;
-GRANT ALL PRIVILEGES ON seachapp.* TO searchapp_user WITH GRANT OPTION;
+CREATE DATABASE searchapp CHARACTER SET utf8;
+GRANT ALL PRIVILEGES ON searchapp.* TO searchapp_user WITH GRANT OPTION;
 
-USE seachapp;
+USE searchapp;
 
 CREATE TABLE topic (
     id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
